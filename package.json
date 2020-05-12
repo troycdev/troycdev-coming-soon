@@ -1,0 +1,25 @@
+{
+  "name": "troycdev-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/main.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "postcss-cli": "^7.1.1",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "balloon-css": "^1.0.4",
+    "boxicons": "^2.0.5",
+    "tailwindcss": "^1.4.6"
+  }
+}
